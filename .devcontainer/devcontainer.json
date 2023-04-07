@@ -1,0 +1,13 @@
+{
+  "name": "rest-api-course-devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+      "packages": "vim,meld,curl,wget"
+    },
+    "ghcr.io/flexwie/devcontainer-features/op:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "verion": "lts"
+    }
+  }
+}
