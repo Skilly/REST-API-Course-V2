@@ -8,7 +8,7 @@ exports.errors = {
     UNKNOWN_ERROR : {
         code:5000,
         text:"Unknown error !!!",
-        hints:["Please contact development team wit information on 'how to reproduce this error'. Thank you for your help and support."],
+        hints:["Please contact development team with information on 'how to reproduce this error'. Thank you for your help and support."],
         info:"http://developer.acme.com/unknownerror"
     },
 
